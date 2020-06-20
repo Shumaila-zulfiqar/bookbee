@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="bookbee.Views.About"
+             Title="About Us"
+             BackgroundColor="Transparent">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="About Us" FontSize="Title" HorizontalTextAlignment="Center"  Padding="150,80,0,0"/>
+            <Label  Text="Just a few months ago we beacame facinated by the  idea of creating something that ficilitate its user with authentic information and a time savior in this world
+of hurry and chaos.We decided to make thia appliaction for the book lovers to provide the serveral services and information about books by a single touch." TextColor="Black"  FontSize="Subtitle" HorizontalTextAlignment="Center" Padding="170,25,10,22"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

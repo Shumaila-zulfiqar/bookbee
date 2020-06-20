@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="bookbee.Views.Help"   Title="Help">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label Text="FAQ" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center"/>
+            <Label Text="Q: What is BookBee?"  FontSize="Subtitle" BackgroundColor="Aquamarine"/>
+            <Label FontSize="Subtitle" Text="A: This is a Book Review and Recommendation Application what will provide you with reviews,rating and pricing of your Searched Book"  BackgroundColor="Beige" />
+            <Label Text="Q: How It Works?" FontSize="Subtitle" BackgroundColor="Aquamarine"/>
+            <Label Text="A: The Text is Read from the image You Upload or Click And Search For the NAme of Book On the Internet And Returns its Details" FontSize="Subtitle" BackgroundColor="Beige"/>
+            <Label Text="Q: How To Use It?" FontSize="Subtitle" BackgroundColor="Aquamarine"/>
+            <Label Text="A: You can take a picture by clicking on the Camera Button Or upload an image by Upload Button Or You can simply Search it by typing in the SearcgBar. " FontSize="Subtitle" BackgroundColor="Beige"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

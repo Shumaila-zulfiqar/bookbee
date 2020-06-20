@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:forms1="http://xamarin.com/schemas/2014/forms"
+             mc:Ignorable="d"
+             x:Class="bookbee.Views.MyBooks"
+             >
+    <StackLayout >
+        <Label Text="Trending" FontSize="Medium" ></Label>
+        <!-- <controls:CarouselViewControl Orientation="Horizontal" InterPageSpacing="10" Position="{Binding myPosition}" ItemsSource="{Binding myItemsSource}" CurrentPageIndicatorTintColor="Orange" IndicatorsTintColor="OrangeRed" 
+                                      VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" x:Name="MainCarousalView" >
+            <controls:CarouselViewControl.ItemTemplate>
+                <DataTemplate>-->
+        <!--   <RelativeLayout HeightRequest="90">
+            <ListView x:Name="list"
+                      CachingStrategy="RecycleElement"
+                      RowHeight="90"
+                      RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent}"
+                      RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Image Source="https://www.creativindie.com/wp-content/uploads/2012/07/stock-image-site-pinterest-graphic.jpg" />
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+                     
+                          
+                
+        </RelativeLayout>-->
+        <!--       <FlexLayout  Direction="Row" AlignItems="Start"  JustifyContent="SpaceEvenly">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*"/>
+                                <ColumnDefinition Width="3*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="https://www.creativindie.com/wp-content/uploads/2013/10/got_hc1.jpg" Grid.Row="0" Grid.Column="0" HeightRequest="180" WidthRequest="180" />
+                            <Image Source="https://images-na.ssl-images-amazon.com/images/I/51Yv54zzwTL._SX326_BO1,204,203,200_.jpg" Grid.Row="0" Grid.Column="1" HeightRequest="180" WidthRequest="180" />
+                            <Image Source="https://cdn6.f-cdn.com/contestentries/1397507/22020034/5b7fabfd102b5_thumb900.jpg" Grid.Row="0" Grid.Column="2"  HeightRequest="180" WidthRequest="180" />
+
+                            <Label Text="Favourites" FontSize="Medium"  Grid.Row="2" Grid.Column="0" />
+                            <Image Source="https://images-na.ssl-images-amazon.com/images/I/51Yv54zzwTL._SX326_BO1,204,203,200_.jpg" Grid.Row="3" Grid.Column="0" HeightRequest="180" WidthRequest="180" />
+                            <Image Source="https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946622193-O7MD1082UC2NNF9M722O/ke17ZwdGBToddI8pDm48kO5xBXCkJZzb1tBk2XsMjLFZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx1HUiysH09eAKAy38YjqVHHZ3VUGZmajjXs2-NqfmcVokekF4rzJlVQl4wBrtHuA8/Lear+Front.jpg" Grid.Row="3" Grid.Column="1" HeightRequest="180" WidthRequest="180" />
+                            <Image Source="https://i.huffpost.com/gen/1039678/original.jpg" Grid.Row="3" Grid.Column="2"  HeightRequest="180" WidthRequest="180" />
+                        </Grid>
+                    </FlexLayout>-->
+
+        <!--             </DataTemplate>
+            </controls:CarouselViewControl.ItemTemplate>
+        </controls:CarouselViewControl> -->
+
+    </StackLayout>
+</ContentPage>

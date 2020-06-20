@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:tab="clr-namespace:bookbee.Views"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="bookbee.Contact"
+             Title="Contact Us" >
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightGray" Opacity="0.85" Margin="50">
+            <!-- Place new controls here -->
+            <Entry Placeholder="Enter Your User Name" Margin="20" BackgroundColor="LavenderBlush" FontFamily="Comic Sans MS"
+                FontAttributes="Italic"   />
+            <Entry Placeholder="Enter Your Password"  Margin="20" BackgroundColor="Ivory" FontFamily="Comic Sans MS"
+                     FontAttributes="Italic" />
+            <Entry Placeholder="Enter Your ContactNo#"  Margin="20" BackgroundColor="Ivory" FontFamily="Comic Sans MS" 
+                     FontAttributes="Italic" />
+            <Button Text="Submit" BackgroundColor="#990033"  Margin="40" FontAttributes="Italic" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

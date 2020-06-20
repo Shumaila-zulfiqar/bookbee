@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="bookbee.Home"
+             Title="BookBee" >
+
+
+
+    <StackLayout Padding="100 -150 100 50" Margin="-90,0,0,0">
+
+        <StackLayout  Margin="70 40 390 2" Padding="-60 -70 -70 -70">
+        <Button Text="WELCOME TO BOOKBEE!" FontSize="Large" FontAttributes="Italic" 
+                TextColor="BlueViolet" ImageSource="B4.jpg" FlexLayout.AlignSelf="Start" HorizontalOptions="FillAndExpand"  HeightRequest="0.5" WidthRequest="0.5"
+                Padding="1" 
+                BackgroundColor="Transparent" FontFamily="Calibri"></Button>
+        </StackLayout>
+
+
+        <RelativeLayout Margin="-10,0,0,0" HorizontalOptions="FillAndExpand">
+            <!-- Margin="0,431,0,0" -->
+            <Button x:Name="camera" ImageSource="camera.png" Clicked="camera_Clicked"
+                    BorderWidth="1" 
+                    BorderColor="#e0e0d1"
+                    Padding="30" BackgroundColor="Transparent"
+                    RelativeLayout.XConstraint="{ConstraintExpression 
+            Type=RelativeToParent,Property=Width,Factor=.0000,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Width,Factor=.3333,Constant=0}"/>
+                <Button x:Name="upload" ImageSource="img.png" Clicked="upload_Clicked"
+                    BorderWidth="1" BackgroundColor="Transparent"
+                    BorderColor="#e0e0d1"
+                    Padding="30" RelativeLayout.XConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=.3333,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Width,Factor=.3333,Constant=0}"/>
+                <Button x:Name="mybooks" ImageSource="lib.png" 
+                    BorderWidth="1"
+                    BorderColor="#e0e0d1"
+                    Padding="30" BackgroundColor="Transparent" Clicked="mybooks_Clicked" RelativeLayout.XConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=.6666,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Width,Factor=.3333,Constant=0}"/>
+            </RelativeLayout>
+         
+
+
+        </StackLayout>
+
+</ContentPage>
